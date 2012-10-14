@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>jQuery left right key detection</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="leftrightkeynav/jcSimpleLeftRightKeyNav.js"></script>
+    <link rel="stylesheet" href="leftrightkeynav/jcLeftRightKeyNav.css">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            jQuery().jcNextPrev({nextLink:'#',
+                                nextLinkText:'Jaspreet Chahal\' blog',
+                                prevLink:'#',
+                                prevLinkText:'Demo Pill'});
+            //jQuery().jcNextPrev('Jaspreet Chahal\' blog','#Next')
+        });
+        /**
+         * Simple Left and Right key navigation
+         * Pressed once shows hint for next page, directional key pressed twice will take you to the new page.
+         * License Copyright 2012 Jaspreet Chahal
+         http://jaspreetchahal.org/
+
+         Permission is hereby granted, free of charge, to any person obtaining
+         a copy of this software and associated documentation files (the
+         "Software"), to deal in the Software without restriction, including
+         without limitation the rights to use, copy, modify, merge, publish,
+         distribute, sublicense, and/or sell copies of the Software, and to
+         permit persons to whom the Software is furnished to do so, subject to
+         the following conditions:
+
+         The above copyright notice and this permission notice shall be
+         included in all copies or substantial portions of the Software.
+
+         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+         NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+         LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+         OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+         WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+         * Tested on IE9,IE10, FF 10+, Chrome, Safari 4+, Opera 11+
+         */
+
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <img src="../img/demopill.png"><br><br>
+    <div class="hero-unit">
+        <h2 class="blue">Demo for Left right key detection</h2><br>
+        <p><a class="btn btn-primary btn-large" href="http://jaspreetchahal.org/jquery-plugin-simple-page-navigation-with-left-and-right-arrow-keys">&laquo; Go back to original article</a></p>
+    </div>
+
+    <input type="text">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <select name="asd" id="asd">
+        <option value=""></option>
+        <option value=""></option>
+    </select>
+
+    <div class="lead">
+        Press <- key once and twice. <br>
+        Press -> key once and twice. <br>
+
+    </div>
+
+    </div>
+</body>
+</html>
+

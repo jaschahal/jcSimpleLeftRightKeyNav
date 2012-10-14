@@ -1,0 +1,113 @@
+/**
+@author Jaspreet Chahal
+*/
+.jcNextPrevLink {
+    position: fixed;
+    top: 40%;
+    display: block;
+    font-weight: bold;
+    font-family: arial;
+    color: #333;
+    text-decoration: none;
+    width: 66px;
+    height: 140px;
+    background: rgba(100, 100, 100, 0.4);
+    z-index: 99;
+    opacity: 0.6;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+#prevLink .arrow {
+    border-right: 20px solid rgba(100, 100, 100, 0.4);
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    left: -20px;
+}
+#nextLink {
+    right: 30px;
+}
+#prevLink {
+    left: 30px;
+}
+#nextLink .arrow {
+    border-top: 20px solid transparent;
+    border-left: 20px solid rgba(100, 100, 100, 0.4);
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    right: -40px;
+}
+.jcNextPrevLink .arrow {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    height: 0;
+    position: absolute;
+    top: 49px;
+}
+.jcNextPrevLink .title {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    opacity: 0.4;
+    display: block;
+    position: absolute;
+    background: none;
+    color:#000;
+    top: 60px;
+    left: 0px;
+    font-size: 24px;
+}
+.jcNextPrevLink .description span {
+    padding: 20px;
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    width: 180px;
+}
+#nextLink .title{
+     left: 10px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+ }
+#prevLink .title{
+    left: -20px;
+}
+.jcNextPrevLink .description {
+    width: 0px;
+    line-height: 30px;
+    color: #FFF;
+    background: rgba(31, 31, 31, 0.7);
+    font-family: "sans serif";
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 66px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}

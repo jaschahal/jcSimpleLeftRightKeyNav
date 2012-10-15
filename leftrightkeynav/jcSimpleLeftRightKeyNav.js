@@ -53,12 +53,12 @@
             }
             // draw element markup
 
-            jQuery('<a href="#'+settings.prevLink+'" class="jcNextPrevLink" id="prevLink">' +
+            jQuery('<a href="'+settings.prevLink+'" class="jcNextPrevLink" id="prevLink">' +
                 '<span class="arrow"></span>' +
                 '<span class="title">Previous</span>' +
                 '<div class="description"><span>'+settings.prevLinkText+'</span></div>' +
                 '</a>' +
-                '<a href="#'+settings.nextLink+'" class="jcNextPrevLink" id="nextLink">' +
+                '<a href="'+settings.nextLink+'" class="jcNextPrevLink" id="nextLink">' +
                 '<span class="arrow"></span>' +
                 '<span class="title">Next</span>' +
                 '<div class="description"><span>'+settings.nextLinkText+'</span></div>' +
